@@ -6,3 +6,7 @@ Design and compare performance of different classification models. We design the
 * Logistic Regression Classifier:
 
 ![Logistic Regression](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/LR_Test_set_classification.png)
+
+* Support Vector Machine Classifier:
+
+![SVM](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/SVM_Test_set_classification.png)
