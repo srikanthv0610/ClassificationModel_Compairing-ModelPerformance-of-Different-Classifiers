@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('Learning_Dataset/Social_Network_Ads.csv')
+df = pd.read_csv('Social_Network_Ads.csv')
 print(df.head())
 
 X = df.iloc[:, :-1]
@@ -18,6 +18,7 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
+#Logistic Regression Model:
 def LogisticRegression_model(X_train, X_test, y_train, y_test):
     from sklearn.linear_model import LogisticRegression
     classifier = LogisticRegression(random_state=0)
@@ -30,7 +31,7 @@ def LogisticRegression_model(X_train, X_test, y_train, y_test):
     Graph_Title = 'Logistic Regression (Test set)'
     Test_Visualization(X_test, y_test, classifier, Graph_Title)
 
-
+#Naive Bayes Model:
 def NaiveBayes_model(X_train, X_test, y_train, y_test):
     from sklearn.naive_bayes import GaussianNB
     classifier = GaussianNB()
@@ -43,6 +44,7 @@ def NaiveBayes_model(X_train, X_test, y_train, y_test):
     Graph_Title = 'SVM Classification (Test set)'
     Test_Visualization(X_test, y_test, classifier, Graph_Title)
 
+#K-NN Classifier Model:
 def KNN_model(X_train, X_test, y_train, y_test):
     from sklearn.neighbors import KNeighborsClassifier
     classifier = KNeighborsClassifier(n_neighbors=3, metric='minkowski', p=2)
@@ -55,6 +57,7 @@ def KNN_model(X_train, X_test, y_train, y_test):
     Graph_Title = 'K-NN Classification (Test set)'
     Test_Visualization(X_test, y_test, classifier, Graph_Title)
 
+#Support-Vector-Machine Model:
 def SVM_model(X_train, X_test, y_train, y_test):
     from sklearn.svm import SVC
     classifier = SVC(kernel='linear', random_state=0)
@@ -67,6 +70,7 @@ def SVM_model(X_train, X_test, y_train, y_test):
     Graph_Title = 'SVM Classification (Test set)'
     Test_Visualization(X_test, y_test, classifier, Graph_Title)
 
+#Decision Tree Model:
 def DecisionTree_model(X_train, X_test, y_train, y_test):
     from sklearn.tree import DecisionTreeClassifier
     classifier = DecisionTreeClassifier(criterion= 'entropy', random_state= 10)
@@ -79,6 +83,7 @@ def DecisionTree_model(X_train, X_test, y_train, y_test):
     Graph_Title = 'Decision Tree Classification (Test set)'
     Test_Visualization(X_test, y_test, classifier, Graph_Title)
 
+#Random Forest Model:
 def RandomForest_model(X_train, X_test, y_train, y_test):
     from sklearn.ensemble import RandomForestClassifier
     classifier = RandomForestClassifier(n_estimators=10, criterion='entropy', random_state=0)
@@ -91,12 +96,14 @@ def RandomForest_model(X_train, X_test, y_train, y_test):
     Graph_Title = 'SVM Classification (Test set)'
     Test_Visualization(X_test, y_test, classifier, Graph_Title)
 
+#Confusion Matrix:    
 def Confusion_matrix(y_test, y_pred):
     from sklearn.metrics import confusion_matrix, accuracy_score
     cm = confusion_matrix(y_test, y_pred)
     print(cm)
     print(accuracy_score(y_test, y_pred))
 
+#Test Visualization:
 def Test_Visualization(X, y, classifier, Title):
     from matplotlib.colors import ListedColormap
     X_set, y_set = sc.inverse_transform(X), y
