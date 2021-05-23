@@ -4,4 +4,5 @@ Design and compare performance of different classification models. We design the
 # Visualizing the Test Results for Different Models:
 
 * Logistic Regression Classifier:
+
 ![Logistic Regression](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/LR_Test_set_classification.png)
