@@ -10,3 +10,19 @@ Design and compare performance of different classification models. We design the
 * Support Vector Machine Classifier:
 
 ![SVM](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/SVM_Test_set_classification.png)
+
+* Naive Bayes Classifier:
+
+![Naive Bayes](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/NaiveBayes_Test_set_classification.PNG)
+
+* K-Nearest Neighbour Classifier:
+
+![KNN](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/KNN_Test_set_classification.PNG)
+
+* Decision Tree Classifier:
+
+![Decision Tree](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/DT_Test_set_classification.png)
+
+* Random Forest Classifier:
+
+![Random Forest](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/Random%20Forest.PNG)
