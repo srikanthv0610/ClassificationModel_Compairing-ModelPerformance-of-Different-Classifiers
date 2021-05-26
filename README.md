@@ -22,6 +22,7 @@ Design and compare performance of different classification models. We design the
                       
 >> Accuracy = 86.7%  
 
+
 * Support Vector Machine Classifier:
 
 ![SVM](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/SVM_Test_set_classification.png)
@@ -30,6 +31,7 @@ Design and compare performance of different classification models. We design the
                       [12  29]]
                       
 >> Accuracy = 86.7%  
+
 
 * Naive Bayes Classifier:
 
@@ -40,6 +42,7 @@ Design and compare performance of different classification models. We design the
                       
 >> Accuracy = 89.2%  
 
+
 * K-Nearest Neighbour Classifier:
 
 ![KNN](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/KNN_Test_set_classification.PNG)
@@ -49,6 +52,7 @@ Design and compare performance of different classification models. We design the
                       
 >> Accuracy = 91.6%  
 
+
 * Decision Tree Classifier:
 
 ![Decision Tree](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/DT_Test_set_classification.png)
@@ -57,6 +61,7 @@ Design and compare performance of different classification models. We design the
                        [5  36]]
                       
 >> Accuracy = 88.3%  
+
 
 * Random Forest Classifier:
 
