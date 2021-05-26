@@ -10,7 +10,7 @@ Design and compare performance of different classification models. We design the
 * Decision Tree
 * Random Forest
 
-# Visualizing the Test Results for Different Models:
+# Visualizing the Model Classifications and Performance:
 
 * Logistic Regression Classifier:
 
