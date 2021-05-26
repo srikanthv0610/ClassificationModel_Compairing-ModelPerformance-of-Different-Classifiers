@@ -1,5 +1,5 @@
 # Social Media-Marketing Prediction: Analysing and Visualizing the Performance of Different Classifiers:
-Design and compare performance of different classification models. We design the model to predict which customer would buy the product (In our case: Car) based on different parameters. 
+Design and compare performance of different classification models. We design the model to predict which customer would buy the product based on different parameters. 
 
 # Classification Models:
 
