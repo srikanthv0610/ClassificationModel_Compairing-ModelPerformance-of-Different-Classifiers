@@ -16,12 +16,18 @@ Design and compare performance of different classification models. We design the
 
 ![Logistic Regression](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/LR_Test_set_classification.png)
 
+
+>> Confusion Matrix = [[74  5]
+                      [11  30]]
+                      
+>> Accuracy = 86.7%  
+
 * Support Vector Machine Classifier:
 
 ![SVM](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/SVM_Test_set_classification.png)
 
->> Confusion Matrix = [[74  5]
-                      [11  30]]
+>> Confusion Matrix = [[74  4]
+                      [12  29]]
                       
 >> Accuracy = 86.7%  
 
