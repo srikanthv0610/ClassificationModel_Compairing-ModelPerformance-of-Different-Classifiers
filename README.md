@@ -1,7 +1,7 @@
 # Social Media-Marketing Prediction: Analysing and Visualizing the Performance of Different Classifiers:
 Design and compare performance of different classification models. We design the model to predict which customer would buy the product based on different parameters. 
 
-# Classification Models:
+## Classification Models:
 
 * Logistic Regression
 * Support Vector Machine
@@ -10,9 +10,9 @@ Design and compare performance of different classification models. We design the
 * Decision Tree
 * Random Forest
 
-# Visualizing the Model Classifications and Performance:
+## Visualizing the Model Classifications and Performance:
 
-* Logistic Regression Classifier:
+* **Logistic Regression Classifier:**
 
 ![Logistic Regression](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/LR_Test_set_classification.png)
 
@@ -23,7 +23,7 @@ Design and compare performance of different classification models. We design the
 >> Accuracy = 86.7%  
 
 
-* Support Vector Machine Classifier:
+* **Support Vector Machine Classifier:**
 
 ![SVM](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/SVM_Test_set_classification.png)
 
@@ -33,7 +33,7 @@ Design and compare performance of different classification models. We design the
 >> Accuracy = 86.7%  
 
 
-* Naive Bayes Classifier:
+* **Naive Bayes Classifier:**
 
 ![Naive Bayes](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/NaiveBayes_Test_set_classification.PNG)
 
@@ -43,7 +43,7 @@ Design and compare performance of different classification models. We design the
 >> Accuracy = 89.2%  
 
 
-* K-Nearest Neighbour Classifier:
+* **K-Nearest Neighbour Classifier:**
 
 ![KNN](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/KNN_Test_set_classification.PNG)
 
@@ -53,7 +53,7 @@ Design and compare performance of different classification models. We design the
 >> Accuracy = 91.6%  
 
 
-* Decision Tree Classifier:
+* **Decision Tree Classifier:**
 
 ![Decision Tree](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/DT_Test_set_classification.png)
 
@@ -63,7 +63,7 @@ Design and compare performance of different classification models. We design the
 >> Accuracy = 88.3%  
 
 
-* Random Forest Classifier:
+* **Random Forest Classifier**:
 
 ![Random Forest](https://github.com/srikanthv0610/ClassificationModel_Compairing-ModelPerformance-of-Different-Classifiers/blob/main/Test_Plots/Random%20Forest.PNG)
 
